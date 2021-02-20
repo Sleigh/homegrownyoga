@@ -5,12 +5,14 @@ import { graphql } from 'gatsby'
 import Content from '../components/Content'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Layout from '../components/Layout'
+import Accordion from '../components/Accordion'
 
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({video,
   videoPoster,
   videoTitle,
+  accordion,
   body }) => (
   <main className="Home">
 
@@ -25,6 +27,14 @@ export const HomePageTemplate = ({video,
     <section className="section">
       <div className="container">
         <Content source={body} />
+      </div>
+    </section>
+
+    <section className="section">
+      
+      <div className="container">
+      <h2>Our Instructors</h2>
+        <Accordion items={accordion} />
       </div>
     </section>
   </main>
@@ -49,9 +59,13 @@ export const pageQuery = graphql`
       ...Meta
       html
       frontmatter {
-        video,
-        videoPoster,
+        video
+        videoPoster
         videoTitle
+        accordion {
+          title
+          description
+        }
       }
     }
   }

@@ -2,20 +2,17 @@
 template: ContactPage
 slug: contact
 title: Contact Page
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: This is the contact page subtitle.
+featuredImage: https://ucarecdn.com/bdb59708-7a00-49ac-b5c8-4d84cc7f2ea6/
+subtitle: Grow your practice where you are
 meta:
   description: This is a meta description.
   title: Contact Page
 ---
+# We can't wait to hear from you
 
-# Example contact form
+How can we help you grow your yoga practice?
 
-This form is setup to use Netlify's form handling:
-
-
-- the form action is set to the current absolute url: `action: '/contact/'`
-- a name attribute is sent with the form's data `'form-name': 'Contact'`
-- netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
-
-Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
+* Virtual Classes at Home
+* Private Individual Virtual Classes
+* Small Group Classes at your Location
+* Yoga Assignments to Practice on Your Own Time
