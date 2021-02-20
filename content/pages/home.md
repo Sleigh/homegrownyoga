@@ -2,7 +2,8 @@
 template: HomePage
 slug: ""
 title: Home Grown Yoga
-videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
+video: https://ucarecdn.com/a0bc9595-681f-4cca-bc90-b07937074790/
+videoPoster: https://ucarecdn.com/d8d74a13-3832-45e7-ab75-86d0488853c5/
 videoTitle: Home Grown Yoga
 meta:
   description: ""
