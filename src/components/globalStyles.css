@@ -1,5 +1,5 @@
 :root {
-  --primary: #00c2bd;
+  --primary: #a2d872;
   --secondary: #000;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
@@ -67,6 +67,7 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
+  color:#00156e;
 }
 
 pre {
