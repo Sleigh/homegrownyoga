@@ -3,16 +3,21 @@ import { graphql } from 'gatsby'
 
 
 import Content from '../components/Content'
-import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
+import Layout from '../components/Layout'
+
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, videoPoster, body,video }) => (
+export const HomePageTemplate = ({
+  video,
+  videoPoster,
+  videoTitle,
+    body }) => (
   <main className="Home">
 
 
 <section className="BackgroundVideo-section section">
-      <BackgroundVideo poster={videoPoster} title={title}>
+      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
     </section>
@@ -45,9 +50,9 @@ export const pageQuery = graphql`
       ...Meta
       html
       frontmatter {
-        title
-        subtitle
-        featuredImage
+        video,
+        videoPoster,
+        videoTitle
       }
     }
   }
