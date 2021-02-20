@@ -2,8 +2,8 @@
 template: HomePage
 slug: ""
 title: Home Grown Yoga
-featuredImage: https://ucarecdn.com/69175f08-769b-48f8-8b46-78557c3d812d/
-subtitle: Yoga at home when you need it
+videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
+videoTitle: Home Grown Yoga
 meta:
   description: ""
   title: Yoga Home Grown Practice is a Virtual and In Person Yoga Group
